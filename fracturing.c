@@ -49,7 +49,7 @@ double calculatePerimeter()
     double distance = calculateDistance();
 
     double radius = (distance/2);   //equation for radius of circle
-    double perimeter = 2  * radius * PI;  //equation for circumference of circle
+    double perimeter = 2  * distance * PI;  //equation for circumference of circle
 
     printf("The perimeter of the city encompassed by your request is %lf\n", perimeter);
 
